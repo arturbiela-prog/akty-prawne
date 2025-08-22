@@ -1,0 +1,20 @@
+PRAWO GEODEZYJNE	lex-dz-u-2024-1151-t-j-prawo-geodezyjne-i.docx
+EGiB	lex-dz-u-2024-219-t-j-ewidencja-gruntow-i-budynkow.docx
+PRG	lex-dz-u-2021-1373-panstwowy-rejestr-granic-i.docx
+GESUT	lex-dz-u-2021-1374-geodezyjna-ewidencja-sieci.docx
+BDOT500	lex-dz-u-2021-1385-baza-danych-obiektow.docx
+BDOT10K	lex-dz-u-2021-1412-baza-danych-obiektow.docx
+Standardy techniczne	lex-dz-u-2022-1670-t-j-standardy-techniczne.docx
+ZSIN	lex-dz-u-2022-2469-zintegrowany-system-informacji.docx
+Zobrazowania lotnicze	lex-dz-u-2023-89-bazy-danych-dotyczace-zobrazowan.docx
+Państwowy system odniesień	lex-dz-u-2024-342-t-j-panstwowy-system-odniesien.docx
+Osnowy geodezyjne	lex-dz-u-2021-1341-osnowy-geodezyjne.docx
+EMUiA	lex-dz-u-2021-1368-ewidencja-miejscowosci-ulic-i.docx
+
+
+
+
+
+
+
+
