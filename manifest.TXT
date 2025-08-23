@@ -1,4 +1,4 @@
-PRAWO GEODEZYJNE	lex-dz-u-2024-1151-t-j-prawo-geodezyjne-i.docx
+USTAWA PRAWO GEODEZYJNE	lex-dz-u-2024-1151-t-j-prawo-geodezyjne-i.docx
 EGiB	lex-dz-u-2024-219-t-j-ewidencja-gruntow-i-budynkow.docx
 PRG	lex-dz-u-2021-1373-panstwowy-rejestr-granic-i.docx
 GESUT	lex-dz-u-2021-1374-geodezyjna-ewidencja-sieci.docx
@@ -10,11 +10,10 @@ Zobrazowania lotnicze	lex-dz-u-2023-89-bazy-danych-dotyczace-zobrazowan.docx
 Państwowy system odniesień	lex-dz-u-2024-342-t-j-panstwowy-system-odniesien.docx
 Osnowy geodezyjne	lex-dz-u-2021-1341-osnowy-geodezyjne.docx
 EMUiA	lex-dz-u-2021-1368-ewidencja-miejscowosci-ulic-i.docx
-
-
-
-
-
-
-
-
+Wzory wniosków o udostępnienie	lex-dz-u-2020-1322-wzory-wnioskow-o-udostepnienie.docx
+Wzory zgłoszenia prac	lex-dz-u-2020-1316-wzory-zgloszenia-prac.docx
+Rodzaje prac geodezyjnych	lex-dz-u-2015-107-rodzaje-prac-geodezyjnych-i.docx
+Gleboznawcza klasyfikacja gruntów	lex-dz-u-2012-1246-gleboznawcza-klasyfikacja.docx
+Zasady prowadzenia zasobu geod.	lex-dz-u-2001-80-866-szczegolowe-zasady-i-tryb.docx
+Rozgraniczenie nieruchomości	lex-dz-u-1999-45-453-rozgraniczanie-nieruchomosci.docx
+USTAWA O GOSPODARCE NIERUCHOMOŚCI	lex-dz-u-2024-1145-t-j-gospodarka-nieruchomosciami.docx
