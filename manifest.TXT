@@ -1,25 +1,26 @@
-Prawo geodezyjne i kartograficzne@Prawo-geodezyjne-i-kartograficzne.docx
-EGiB@Ewidencja-gruntów-i-budynków.docx
-Standardy techniczne@Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx
-BDOT 500@Baza-danych-obiektów-topograficznych-mapa-zasadnicza.docx
-GESUT@Geodezyjna-ewidencja-sieci-uzbrojenia-terenu.docx
-BDOT 10K@Bazy-danych-obiektów-topograficznych-i-ogólnogeograficznych-standardowe-opracowania-kartograficzne.docx
-PZGiK - prowadzenie@	Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx
-PZGiK - udostępnianie@	Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx
-PZGiK - stawki	@Państwowy-zasób-geodezyjny-kartograficzny-stawki-opłat-2025.docx
-Rozgraniczanie nieruchomości@Rozgraniczanie-nieruchomości.docx
-Zgłoszenia prac geodezyjnych@Prace-geodezyjne-wzór-zgłoszenia.docx
-EMUiA@Ewidencja-miejscowości-ulic-i-adresów.docx
-Uprawnienia zawodowe@Geodezja-i-kartografia-uprawnienia-zawodowe.docx
-Klasyfikacja gruntów@Gleboznawcza-klasyfikacja-gruntów.docx
-Mapy tematyczne@Kartograficzne-opracowania-tematyczne-specjalne.docx
-Ochrona znaków geodezyjnych@Ochrona-znaków-geodezyjnych-grawimetrycznych-i-magnetycznych.docx
-Osnowy geodezyjne@Osnowy-geodezyjne-grawimetryczne-i-magnetyczne.docx
-Państwowy system odniesień@Państwowy-system-odniesień-przestrzennych.docx
-Scalenie i wymiana gruntów@Scalanie-i-wymiana-gruntów.docx
-Warunki organizacyjne dla gmin@Warunki-organizacyjne-kadrowe-techniczne-gminy-wnioskujące-o-przejęcie-zadań-i-kompetencji-starosty-w-zakresie-geodezji-i-kartografii.docx
-Ustawa o gospodarce nieruchomościami	Gospodarka-nieruchomościami.docx
-Rozporządzenie w sprawie podziałów	Nieruchomości-scalanie-i-podział.docx
+Prawo geodezyjne i kartograficzne @ Prawo-geodezyjne-i-kartograficzne.docx
+EGiB @ Ewidencja-gruntów-i-budynków.docx
+Standardy techniczne @ Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx
+BDOT 500 @ Baza-danych-obiektów-topograficznych-mapa-zasadnicza.docx
+GESUT @ Geodezyjna-ewidencja-sieci-uzbrojenia-terenu.docx
+BDOT 10K @ Bazy-danych-obiektów-topograficznych-i-ogólnogeograficznych-standardowe-opracowania-kartograficzne.docx
+PZGiK - prowadzenie @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx
+PZGiK - udostępnianie @ Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx
+PZGiK - stawki @ Państwowy-zasób-geodezyjny-kartograficzny-stawki-opłat-2025.docx
+Rozgraniczanie nieruchomości @ Rozgraniczanie-nieruchomości.docx
+Zgłoszenia prac geodezyjnych @ Prace-geodezyjne-wzór-zgłoszenia.docx
+EMUiA @ Ewidencja-miejscowości-ulic-i-adresów.docx
+Uprawnienia zawodowe @ Geodezja-i-kartografia-uprawnienia-zawodowe.docx
+Klasyfikacja gruntów @ Gleboznawcza-klasyfikacja-gruntów.docx
+Mapy tematyczne @ Kartograficzne-opracowania-tematyczne-specjalne.docx
+Ochrona znaków geodezyjnych @ Ochrona-znaków-geodezyjnych-grawimetrycznych-i-magnetycznych.docx
+Osnowy geodezyjne @ Osnowy-geodezyjne-grawimetryczne-i-magnetyczne.docx
+Państwowy system odniesień @ Państwowy-system-odniesień-przestrzennych.docx
+Scalenie i wymiana gruntów @ Scalanie-i-wymiana-gruntów.docx
+Warunki organizacyjne dla gmin @ Warunki-organizacyjne-kadrowe-techniczne-gminy-wnioskujące-o-przejęcie-zadań-i-kompetencji-starosty-w-zakresie-geodezji-i-kartografii.docx
+Ustawa o gospodarce nieruchomościami @ Gospodarka-nieruchomościami.docx
+Rozporządzenie w sprawie podziałów @ Nieruchomości-scalanie-i-podział.docx
+
 
 
 
