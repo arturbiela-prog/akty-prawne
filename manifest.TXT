@@ -3,7 +3,7 @@ EGiB @ Ewidencja-gruntów-i-budynków.docx @ D20211390.pdf
 Standardy techniczne @ Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx
 BDOT 500 @ Baza-danych-obiektów-topograficznych-mapa-zasadnicza.docx
 GESUT @ Geodezyjna-ewidencja-sieci-uzbrojenia-terenu.docx
-BDOT 10K @ D20211412.pdf @ Bazy-danych-obiektów-topograficznych-i-ogólnogeograficznych-standardowe-opracowania-kartograficzne.docx
+BDOT 10K @ Bazy-danych-obiektów-topograficznych-i-ogólnogeograficznych-standardowe-opracowania-kartograficzne.docx  @ D20211412.pdf 
 PZGiK - prowadzenie @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx
 PZGiK - udostępnianie @ Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx
 PZGiK - stawki @ Państwowy-zasób-geodezyjny-kartograficzny-stawki-opłat-2025.docx
