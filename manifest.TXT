@@ -8,7 +8,7 @@ GESUT @ Geodezyjna-ewidencja-sieci-uzbrojenia-terenu.docx @ D20211385.pdf
 BDOT 10K @ Bazy-danych-obiektów-topograficznych-i-ogólnogeograficznych-standardowe-opracowania-kartograficzne.docx  @ D20211412.pdf 
 PZGiK - prowadzenie @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx @ D20210820.pdf
 PZGiK - udostępnianie @ Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx
-PZGiK - stawki @ Państwowy-zasób-geodezyjny-kartograficzny-stawki-opłat-2025.docx @ M20251123.pdf
+PZGiK - stawki @@ M20251123.pdf
 Rozgraniczanie nieruchomości @ Rozgraniczanie-nieruchomości.docx @ D19990453.pdf
 Zgłoszenia prac geodezyjnych @ Prace-geodezyjne-wzór-zgłoszenia.docx
 EMUiA @ Ewidencja-miejscowości-ulic-i-adresów.docx
