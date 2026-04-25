@@ -1,0 +1,32 @@
+📖 Instrukcja Obsługi Aplikacji PGK (v1.45)
+Witamy w aplikacji PGK – Przeglądarce Aktów Prawnych. Aplikacja została stworzona z myślą o profesjonalistach, którzy potrzebują szybkiego i wygodnego dostępu do aktualnych przepisów geodezyjnych i kartograficznych.
+
+1. Ekran Główny
+•Lista dokumentów: Po uruchomieniu zobaczysz kafelki z dostępnymi aktami prawnymi.
+•Odświeżanie: Aby zaktualizować listę lub sprawdzić nowości, przeciągnij palcem w dół na ekranie głównym.
+•Personalizacja: Przytrzymaj dłużej wybrany kafelek, aby zmienić jego kolor. Pomoże Ci to pogrupować dokumenty według własnych potrzeb.
+
+2. Przeglądanie Dokumentów (Tryb Hybrydowy)
+Aplikacja oferuje dwa sposoby wyświetlania aktów:
+•Czytnik (DOCX): Domyślny tryb tekstowy. Jest zoptymalizowany pod kątem czytelności na ekranie telefonu. Posiada inteligentne formatowanie (pogrubione artykuły, paragrafy oraz treść w nawiasach [...]).
+•Oryginał (PDF): Klikając ikonę dokumentu na górnym pasku, możesz przełączyć się na oficjalny widok PDF.
+
+3. Nawigacja i Wyszukiwanie
+•Skocz do (Ikona pinezki): Pozwala na błyskawiczne przejście do konkretnego artykułu lub paragrafu.
+◦Wpisz liczbę (np. 15), aby znaleźć Art. 15.
+◦Wpisz znak paragrafu lub literę p przed liczbą (np. §15 lub p15), aby znaleźć § 15.
+•Szukaj (Ikona lupy): Pozwala znaleźć dowolną frazę w tekście. Wyniki zostaną podświetlone, a między nimi możesz przełączać się strzałkami "Góra/Dół".
+•Struktura: Dla Twojej wygody czytnik dodaje większe odstępy przed nowymi działami, rozdziałami oraz artykułami, co ułatwia orientację w długich tekstach.
+
+4. Komfort Czytania
+•Tryb Nocny: Użyj ikony księżyca/słońca, aby przełączyć się na ciemny motyw, który mniej męczy wzrok wieczorem.
+•Skalowanie tekstu: Użyj ikon A+ i A-, aby dopasować wielkość liter do swoich preferencji.
+
+⚠️ Ważna Informacja dotycząca treści
+Źródło plików PDF: Wszystkie pliki w formacie PDF są pobierane bezpośrednio z bazy Internetowego Systemu Aktów Prawnych (ISAP) prowadzonego przez Kancelarię Sejmu RP.
+Aktualność dokumentów:
+•Wersja PDF: Prezentuje oryginalny tekst ogłoszony w Dzienniku Ustaw lub Monitorze Polskim. Uwaga: Pliki te mogą nie zawierać późniejszych zmian i nowelizacji (nie zawsze są to teksty jednolite).
+•Wersja Czytnika (DOCX): Staramy się, aby tekst w czytniku był wersją ujednoliconą, uwzględniającą zmiany prawne.
+
+Zaleca się każdorazową weryfikację, czy dany plik PDF jest tekstem jednolitym. W przypadku rozbieżności, to wersja czytnika najczęściej zawiera najbardziej aktualny stan prawny opracowany na potrzeby aplikacji.
+Dziękujemy za korzystanie z aplikacji PGK!
