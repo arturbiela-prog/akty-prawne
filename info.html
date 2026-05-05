@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instrukcja Obsługi — PGK v1.45</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --ink: #1a1a18;
+    --paper: #f5f3ee;
+    --muted: #8a8880;
+    --rule: #d8d4cc;
+    --accent: #2d5a3d;
+    --warn-bg: #fdf6e3;
+    --warn-border: #c8a850;
+    --warn-text: #7a5c1a;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 16px; scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Lora', Georgia, serif;
+    line-height: 1.75;
+    min-height: 100vh;
+  }
+
+  /* Layout */
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 2rem 6rem;
+  }
+
+  /* Header */
+  header {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .app-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.85rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+  }
+
+  .version {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+    display: block;
+  }
+
+  .lead {
+    margin-top: 1.25rem;
+    font-size: 0.98rem;
+    color: #4a4a44;
+    max-width: 560px;
+    font-style: italic;
+  }
+
+  /* Sections */
+  section {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 0.68rem;
+    font-family: 'JetBrains Mono', monospace;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  h2::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  .section-num {
+    color: var(--muted);
+    font-size: 0.62rem;
+  }
+
+  /* Feature list */
+  .feature-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .feature-list li {
+    display: grid;
+    grid-template-columns: 1.6rem 1fr;
+    gap: 0.5rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid var(--rule);
+    font-size: 0.95rem;
+    align-items: start;
+  }
+
+  .feature-list li:last-child {
+    border-bottom: none;
+  }
+
+  .icon {
+    font-size: 1rem;
+    line-height: 1.75;
+    text-align: center;
+  }
+
+  .feat-title {
+    font-weight: 500;
+    color: var(--ink);
+  }
+
+  .feat-desc {
+    font-size: 0.88rem;
+    color: #5a5a54;
+    margin-top: 0.15rem;
+    line-height: 1.6;
+  }
+
+  /* Sub-items (nested) */
+  .sub-list {
+    list-style: none;
+    margin-top: 0.6rem;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .sub-list li {
+    display: block;
+    font-size: 0.87rem;
+    color: #5a5a54;
+    border: none;
+    padding: 0.1rem 0 0.1rem 1.1rem;
+    position: relative;
+  }
+
+  .sub-list li::before {
+    content: '›';
+    color: var(--muted);
+    position: absolute;
+    left: 0;
+  }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82em;
+    background: rgba(0,0,0,0.06);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    color: var(--accent);
+  }
+
+  /* Warning box */
+  .warning {
+    background: var(--warn-bg);
+    border-left: 3px solid var(--warn-border);
+    padding: 1.4rem 1.5rem;
+    border-radius: 0 4px 4px 0;
+    margin-top: 0.5rem;
+  }
+
+  .warning-title {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--warn-text);
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .warning p, .warning li {
+    font-size: 0.9rem;
+    color: #5a4a1a;
+    line-height: 1.65;
+  }
+
+  .warning strong {
+    color: var(--warn-text);
+    font-weight: 500;
+  }
+
+  .warning ul {
+    list-style: none;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .warning ul li {
+    padding-left: 1.1rem;
+    position: relative;
+    font-size: 0.9rem;
+    color: #5a4a1a;
+    line-height: 1.65;
+  }
+
+  .warning ul li::before {
+    content: '—';
+    color: var(--warn-border);
+    position: absolute;
+    left: 0;
+  }
+
+  /* Source tag */
+  .source-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 0.2em 0.7em;
+    border-radius: 2px;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 1.5rem;
+    margin-top: 4rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  /* Fade in */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  header  { animation: fadeUp 0.5s ease both; }
+  section { animation: fadeUp 0.5s ease both; }
+  section:nth-of-type(1) { animation-delay: 0.05s; }
+  section:nth-of-type(2) { animation-delay: 0.1s; }
+  section:nth-of-type(3) { animation-delay: 0.15s; }
+  section:nth-of-type(4) { animation-delay: 0.2s; }
+  section:nth-of-type(5) { animation-delay: 0.25s; }
+
+  @media (max-width: 480px) {
+    .page { padding: 2.5rem 1.25rem 4rem; }
+    h1 { font-size: 1.45rem; }
+    footer { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <span class="app-label">Instrukcja Obsługi</span>
+    <h1>Przeglądarka Aktów Prawnych<br>PGK</h1>
+    <span class="version">wersja 1.45</span>
+    <p class="lead">Aplikacja przeznaczona dla profesjonalistów wymagających szybkiego dostępu do aktualnych przepisów geodezyjnych i kartograficznych.</p>
+  </header>
+
+  <!-- 1. Ekran Główny -->
+  <section>
+    <h2><span class="section-num">01</span> Ekran Główny</h2>
+    <ul class="feature-list">
+      <li>
+        <span class="icon">▦</span>
+        <div>
+          <div class="feat-title">Lista dokumentów</div>
+          <div class="feat-desc">Po uruchomieniu aplikacji wyświetlane są kafelki dostępnych aktów prawnych.</div>
+        </div>
+      </li>
+      <li>
+        <span class="icon">↓</span>
+        <div>
+          <div class="feat-title">Odświeżanie</div>
+          <div class="feat-desc">Przeciągnij palcem w dół, aby zaktualizować listę lub sprawdzić nowości.</div>
+        </div>
+      </li>
+      <li>
+        <span class="icon">◉</span>
+        <div>
+          <div class="feat-title">Personalizacja</div>
+          <div class="feat-desc">Przytrzymaj wybrany kafelek, aby zmienić jego kolor — ułatwia grupowanie dokumentów według własnych potrzeb.</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 2. Tryb Hybrydowy -->
+  <section>
+    <h2><span class="section-num">02</span> Przeglądanie Dokumentów</h2>
+    <ul class="feature-list">
+      <li>
+        <span class="icon">≡</span>
+        <div>
+          <div class="feat-title">Czytnik (DOCX) — domyślny</div>
+          <div class="feat-desc">Tryb tekstowy zoptymalizowany pod kątem czytelności na ekranie telefonu. Inteligentne formatowanie: pogrubione artykuły, paragrafy oraz treść w nawiasach <code>[...]</code>.</div>
+        </div>
+      </li>
+      <li>
+        <span class="icon">⎘</span>
+        <div>
+          <div class="feat-title">Oryginał (PDF)</div>
+          <div class="feat-desc">Kliknij ikonę dokumentu na górnym pasku, aby przełączyć się na oficjalny widok PDF.</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 3. Nawigacja -->
+  <section>
+    <h2><span class="section-num">03</span> Nawigacja i Wyszukiwanie</h2>
+    <ul class="feature-list">
+      <li>
+        <span class="icon">⊕</span>
+        <div>
+          <div class="feat-title">Skocz do — ikona pinezki</div>
+          <div class="feat-desc">Błyskawiczne przejście do konkretnego artykułu lub paragrafu.</div>
+          <ul class="sub-list">
+            <li>Wpisz liczbę (np. <code>15</code>), aby znaleźć Art. 15.</li>
+            <li>Wpisz <code>§15</code> lub <code>p15</code>, aby znaleźć § 15.</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <span class="icon">⌕</span>
+        <div>
+          <div class="feat-title">Szukaj — ikona lupy</div>
+          <div class="feat-desc">Wyszukuje dowolną frazę w tekście. Wyniki są podświetlone; przełączaj między nimi strzałkami <strong>Góra / Dół</strong>.</div>
+        </div>
+      </li>
+      <li>
+        <span class="icon">⋮</span>
+        <div>
+          <div class="feat-title">Struktura tekstu</div>
+          <div class="feat-desc">Czytnik dodaje zwiększone odstępy przed działami, rozdziałami i artykułami, ułatwiając orientację w długich tekstach.</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 4. Komfort czytania -->
+  <section>
+    <h2><span class="section-num">04</span> Komfort Czytania</h2>
+    <ul class="feature-list">
+      <li>
+        <span class="icon">☽</span>
+        <div>
+          <div class="feat-title">Tryb Nocny</div>
+          <div class="feat-desc">Ikona księżyca / słońca przełącza ciemny motyw, redukujący zmęczenie wzroku.</div>
+        </div>
+      </li>
+      <li>
+        <span class="icon">Aa</span>
+        <div>
+          <div class="feat-title">Skalowanie tekstu</div>
+          <div class="feat-desc">Ikony <code>A+</code> i <code>A−</code> pozwalają dostosować wielkość liter.</div>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Ważna informacja -->
+  <section>
+    <h2><span class="section-num">05</span> Ważna Informacja o Treści</h2>
+
+    <div class="source-tag">
+      <span>📂</span> Źródło PDF: ISAP — Kancelaria Sejmu RP
+    </div>
+
+    <div class="warning">
+      <div class="warning-title">⚠ Aktualność dokumentów</div>
+      <ul>
+        <li><strong>Wersja PDF</strong> — oryginalny tekst ogłoszony w Dzienniku Ustaw lub Monitorze Polskim. Może nie zawierać późniejszych zmian i nowelizacji (nie zawsze jest to tekst jednolity).</li>
+        <li><strong>Wersja Czytnika (DOCX)</strong> — tekst ujednolicony, uwzględniający zmiany prawne opracowane na potrzeby aplikacji.</li>
+      </ul>
+      <p style="margin-top:0.85rem;">Zalecana jest każdorazowa weryfikacja, czy dany plik PDF jest tekstem jednolitym. W przypadku rozbieżności wersja czytnika zawiera najczęściej bardziej aktualny stan prawny.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>PGK v1.45</span>
+    <span>Przeglądarka Aktów Prawnych</span>
+  </footer>
+
+</div>
+</body>
+</html>
