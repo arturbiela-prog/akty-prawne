@@ -2,6 +2,9 @@
 D:
 cd "D:\PGIK_Akty_prawne"
 echo.
+echo === Pobieranie zmian z GitHub ===
+git pull
+echo.
 echo === Dodawanie plikow ===
 git add .
 echo.
