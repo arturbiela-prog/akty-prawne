@@ -1,8 +1,19 @@
 @echo off
+D:
 cd "D:\PGIK_Akty_prawne"
+echo.
+echo === Dodawanie plikow ===
 git add .
-set /p msg=Opis zmian: 
+echo.
+echo === Podaj opis zmian ===
+set /p msg=Opis: 
 git commit -m "%msg%"
+echo.
+echo === Wysylanie na GitHub ===
 git push
+echo.
+echo === Wysylanie na Firebase ===
 firebase deploy --only hosting
+echo.
+echo === GOTOWE ===
 pause
