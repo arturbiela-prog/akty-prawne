@@ -1,11 +1,11 @@
 PRAWO GEODEZYJNE I KARTOGRAFICZNE @ prawo-geodezyjne.html.gz @ Prawo-geodezyjne-i-kartograficzne.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19890300163/U/D19890163Lj.pdf
 KPA @ KPA.docx
 KC @ KC.docx
-EGiB @ Ewidencja-gruntów-i-budynków.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001390/O/D20211390.pdf
+EGiB @ egib.html.gz @ Ewidencja-gruntów-i-budynków.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001390/O/D20211390.pdf
 Standardy techniczne @ Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx
 BDOT 500 @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001385/O/D20211385.pdf
 GESUT @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001374/O/D20211374.pdf
-BDOT 10K @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001412/O/D20211412.pdf 
+BDOT 10K @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001412/O/D20211412.pdf
 PZGiK - prowadzenie @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210000820/O/D20210820.pdf
 PZGiK - udostępnianie @ Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230001135/O/D20231135.pdf
 PZGiK - stawki @ M20251123.pdf
@@ -27,5 +27,5 @@ PLANOWANIE PRZESTRZENNE @ Planowanie_przestrzenne.docx
 GOSPODARKA NIERUCHOMOŚCIAMI @ Gospodarka-nieruchomościami.docx
 Podziały nieruchomości @ Podział-nieruchomości.docx
 Scalenie i podział @ Nieruchomości-scalanie-i-podział.docx
-PRAWO WODNE @ prawo_wodne.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20170001566/U/D20171566Lj.pdf
+PRAWO WODNE @ egib.html.gz @ prawo_wodne.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20170001566/U/D20171566Lj.pdf
 !!! UD60 PGIK-PROJEKT !!! @ PGIK_UD60_redline.html @ PGIK_UD60_redline.pdf
