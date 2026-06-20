@@ -2,7 +2,7 @@ PRAWO GEODEZYJNE I KARTOGRAFICZNE @ prawo-geodezyjne.html.gz @ Prawo-geodezyjne-
 KPA @ kpa.html.gz @ KPA.docx
 KC @ kc.html.gz @ KC.docx
 EGiB @ egib.html.gz @ Ewidencja-gruntów-i-budynków.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001390/O/D20211390.pdf
-Standardy techniczne @ standardy-techniczne.html.gz @ Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx
+Standardy techniczne @ standardy-techniczne.html.gz @ Geodezyjne-pomiary-sytuacyjne-i-wysokościowe-standardy-techniczne.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20220001670/O/D20221670.pdf
 BDOT 500 @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001385/O/D20211385.pdf
 GESUT @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001374/O/D20211374.pdf
 BDOT 10K @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001412/O/D20211412.pdf
@@ -14,7 +14,7 @@ Zgłoszenia prac geodezyjnych @ Prace-geodezyjne-wzór-zgłoszenia.docx @ https:
 EMUiA @ Ewidencja-miejscowości-ulic-i-adresów.docx
 Uprawnienia zawodowe @ Geodezja-i-kartografia-uprawnienia-zawodowe.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20200001321/O/D20201321.pdf
 Klasyfikacja gruntów @ klasyfikacja-gruntow.html.gz @ Gleboznawcza-klasyfikacja-gruntów.docx
-Ochrona gruntów @ Ochrona-gruntów-rolnych-i-leśnych.docx
+OCHRONA GRUNTÓW @ Ochrona-gruntów-rolnych-i-leśnych.docx
 Mapy tematyczne @ Kartograficzne-opracowania-tematyczne-specjalne.docx
 Ochrona znaków geodezyjnych @ Ochrona-znaków-geodezyjnych-grawimetrycznych-i-magnetycznych.docx
 Osnowy geodezyjne @ Osnowy-geodezyjne-grawimetryczne-i-magnetyczne.docx
