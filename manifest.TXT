@@ -8,7 +8,7 @@ GESUT @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001374/O/D2021137
 BDOT 10K @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210001412/O/D20211412.pdf
 PZGiK - prowadzenie @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.html.gz @ Państwowy-zasób-geodezyjny-i-kartograficzny-organizacja-i-tryb-prowadzenia.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20210000820/O/D20210820.pdf
 PZGiK - udostępnianie @ Państwowy-Zasób-Geodezyjny-i-Kartograficzny-udostępnianie-informacji-wydawanie-licencji.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230001135/O/D20231135.pdf
-PZGiK - stawki @ M20251123.pdf @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20240000902/O/M20240902.pdf
+PZGiK - stawki @ m-p-2025-1123-ogloszenie-obowiazujacych-od.html.gz @ m-p-2025-1123-ogloszenie-obowiazujacych-od.docx @ M20251123.pdf @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WMP20240000902/O/M20240902.pdf
 Rozgraniczanie nieruchomości @ Rozgraniczanie-nieruchomości.html.gz @ Rozgraniczanie-nieruchomości.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19990450453/O/D19990453.pdf
 Zgłoszenia prac geodezyjnych @ Prace-geodezyjne-wzór-zgłoszenia.docx @ https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20200001316/O/D20201316.pdf
 EMUiA @ Ewidencja-miejscowości-ulic-i-adresów.docx
